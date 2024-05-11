@@ -17,19 +17,19 @@ This project aims to detect fake news using machine learning algorithms. The dat
 5. **Testing Function**: We created a testing function that allows users to input news articles and get predictions on whether they are fake or true for each of the four algorithms.
 
 ## Results
-- **Logistic Regression Accuracy**: XX%
-- **XGBoost Accuracy**: XX%
-- **Decision Tree Accuracy**: XX%
-- **Random Forest Classifier Accuracy**: XX%
+- **Logistic Regression Accuracy**: 98.6%
+- **XGBoost Accuracy**: 99.5%
+- **Decision Tree Accuracy**: 99.6%
+- **Random Forest Classifier Accuracy**: 99.1%
 
 ## Usage
-1. Clone the repository: git clone https://github.com/yourusername/fake-news-detection.git
-2. 2. Install the required libraries: `pip install -r requirements.txt`.
+1. Clone the repository: git clone [https://github.com/PeterKayode/fake-news-detection.git](https://github.com/PeterKayode/fake-news-detection.git)
+2. Install the required libraries: `pip install -r requirements.txt`.
 3. Open and run the Jupyter Notebook `Fake_News_Detection.ipynb`.
 4. Follow the instructions in the notebook to explore the data, train the models, and use the testing function.
 
 ## Conclusion
-My experiments show that the Random Forest Classifier achieved the highest accuracy in detecting fake news among the four algorithms tested. However, the performance may vary depending on the dataset and the characteristics of the news articles. This project provides a starting point for further research and development in fake news detection.
+My experiments show that the Decision Tree Classifier achieved the highest accuracy in detecting fake news among the four algorithms tested. However, the performance may vary depending on the dataset and the characteristics of the news articles. This project provides a starting point for further research and development in fake news detection.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
