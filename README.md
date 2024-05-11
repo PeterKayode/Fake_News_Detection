@@ -1,7 +1,7 @@
 # Fake News Detection Project
 
 ## Introduction
-This project aims to detect fake news using machine learning algorithms. The dataset used consists of two files: fake.csv and true.csv, containing news articles labeled as fake and true respectively. We explored four different machine learning algorithms: Logistic Regression, XGBoost, Decision Tree, and Random Forest Classifier, and evaluated their performance in detecting fake news.
+This project aims to detect fake news using machine learning algorithms. The dataset used consists of two files: fake.csv and true.csv, containing news articles labeled as fake and true respectively. I explored four different machine learning algorithms: Logistic Regression, XGBoost, Decision Tree, and Random Forest Classifier, and evaluated their performance in detecting fake news.
 
 ## Files
 - **fake.csv**: Dataset containing fake news articles.
@@ -10,11 +10,11 @@ This project aims to detect fake news using machine learning algorithms. The dat
 - **README.md**: This file.
 
 ## Approach
-1. **Data Exploration**: We analyzed the structure and content of the datasets to understand the features and labels.
-2. **Data Preprocessing**: We performed text preprocessing techniques such as tokenization, stop word removal, and lemmatization.
-3. **Model Training**: We trained four machine learning models: Logistic Regression, XGBoost, Decision Tree, and Random Forest Classifier.
-4. **Model Evaluation**: We evaluated the performance of each model using accuracy metrics.
-5. **Testing Function**: We created a testing function that allows users to input news articles and get predictions on whether they are fake or true for each of the four algorithms.
+1. **Data Exploration**: I analyzed the structure and content of the datasets to understand the features and labels.
+2. **Data Preprocessing**: I performed text preprocessing techniques such as tokenization, stop word removal, and lemmatization.
+3. **Model Training**: I trained four machine learning models: Logistic Regression, XGBoost, Decision Tree, and Random Forest Classifier.
+4. **Model Evaluation**: I evaluated the performance of each model using accuracy metrics.
+5. **Testing Function**: I created a testing function that allows users to input news articles and get predictions on whether they are fake or true for each of the four algorithms.
 
 ## Results
 - **Logistic Regression Accuracy**: 98.6%
