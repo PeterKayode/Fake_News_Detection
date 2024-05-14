@@ -1,37 +1,36 @@
-# Fake News Detection Project
+# Machine Learning Basic Projects Repository 🤖
 
-## Introduction
-This project aims to detect fake news using machine learning algorithms. The dataset used consists of two files: fake.csv and true.csv, containing news articles labeled as fake and true respectively. I explored four different machine learning algorithms: Logistic Regression, XGBoost, Decision Tree, and Random Forest Classifier, and evaluated their performance in detecting fake news.
+Welcome to my Machine Learning Projects Repository! Here, you'll find a collection of three projects that I have developed in the field of machine learning. Each project aims to solve a specific problem using various machine learning techniques.
 
-## Files
-- **fake.csv**: Dataset containing fake news articles.
-- **true.csv**: Dataset containing true news articles.
-- **Fake_News_Detection.ipynb**: Jupyter Notebook containing the code for data exploration, preprocessing, model training, and testing.
-- **README.md**: This file.
+## Projects 🚀
 
-## Approach
-1. **Data Exploration**: I analyzed the structure and content of the datasets to understand the features and labels.
-2. **Data Preprocessing**: I performed text preprocessing techniques such as tokenization, stop word removal, and lemmatization.
-3. **Model Training**: I trained four machine learning models: Logistic Regression, XGBoost, Decision Tree, and Random Forest Classifier.
-4. **Model Evaluation**: I evaluated the performance of each model using accuracy metrics.
-5. **Testing Function**: I created a testing function that allows users to input news articles and get predictions on whether they are fake or true for each of the four algorithms.
+### 1. Fake News Detection 📰
 
-## Results
-- **Logistic Regression Accuracy**: 98.6%
-- **XGBoost Accuracy**: 99.5%
-- **Decision Tree Accuracy**: 99.6%
-- **Random Forest Classifier Accuracy**: 99.1%
+This project focuses on detecting fake news articles using natural language processing (NLP) techniques. It analyzes the textual content of news articles to identify patterns and features indicative of fake news.
 
-## Usage
-1. Clone the repository: git clone [https://github.com/PeterKayode/fake-news-detection.git](https://github.com/PeterKayode/fake-news-detection.git)
-2. Install the required libraries: `pip install -r requirements.txt`.
-3. Open and run the Jupyter Notebook `Fake_News_Detection.ipynb`.
-4. Follow the instructions in the notebook to explore the data, train the models, and use the testing function.
+### 2. Loan Approval System 💰
 
-## Conclusion
-My experiments show that the Decision Tree Classifier achieved the highest accuracy in detecting fake news among the four algorithms tested. However, the performance may vary depending on the dataset and the characteristics of the news articles. This project provides a starting point for further research and development in fake news detection.
+The Loan Approval System project utilizes machine learning algorithms to predict whether a loan application should be approved or rejected. It considers various factors such as applicant's credit history, income, and loan amount to make accurate predictions.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+### 3. Movies Recommendation System 🎬
 
+The Movies Recommendation System project employs collaborative filtering and recommendation algorithms to suggest movies to users based on their preferences and past interactions. It enhances user experience by providing personalized movie recommendations.
+
+## Technologies Used 🛠️
+
+- Python
+- Scikit-learn
+- TensorFlow
+- Natural Language Toolkit (NLTK)
+- Pandas
+- Matplotlib
+- Seaborn
+
+## Getting Started 🚦
+
+To get started with any of the projects, simply navigate to the respective project directory and follow the instructions provided in the README.md file within that directory.
+
+## License 📝
+
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
