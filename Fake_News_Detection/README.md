@@ -23,7 +23,7 @@ This project aims to detect fake news using machine learning algorithms. The dat
 - **Random Forest Classifier Accuracy**: 99.1%
 
 ## Usage
-1. Clone the repository: git clone [https://github.com/PeterKayode/fake-news-detection.git](https://github.com/PeterKayode/fake-news-detection.git)
+1. Clone the repository: git clone [https://github.com/PeterKayode/Machine_Learning_Basic_Projects/tree/main/Fake_News_Detection.git](https://github.com/PeterKayode/Machine_Learning_Basic_Projects/tree/main/Fake_News_Detection.git)
 2. Install the required libraries: `pip install -r requirements.txt`.
 3. Open and run the Jupyter Notebook `Fake_News_Detection.ipynb`.
 4. Follow the instructions in the notebook to explore the data, train the models, and use the testing function.
